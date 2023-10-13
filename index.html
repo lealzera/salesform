@@ -7,6 +7,101 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    
+    <div class="container">
+        <div class="header">
+            <h2>Register your cell phone to sell it faster!</h3>
+        </div>
+        <div class="form-container">
+            <div class="form-header">
+                <p>FORM</p>
+            </div>
+            <div class="form-body">
+                <h1 class="form-title">Sell your cell phone easily!</h1>
+                <p>Describe the features and mark the options it has</p>
+            </div>
+            <form>
+                <div class="box-input">
+                    <label for="price">Ad Title <span class="required">*</span></label>
+                    <input type="text" name="price" id="price" class="block" placeholder="A title to advertise your cell phone" minlength="1" maxlength="25" required>
+                </div>
+
+                <div class="box-input">
+                    <label for="title">Price <span class="required">*</span></label>
+                    <input type="number" name="title" id="title" class="block" placeholder="Set the price" minlength="1" maxlength="25" required>
+                </div>
+                
+                <div class="box-input">
+                    <label for="description">Description <span class="required">*</span></label>
+                    <textarea name="description" id="description" class="block" placeholder="Write the details of your smartphone and the reason for sale here."></textarea>
+                </div>
+
+                <div class="box-input">
+                    <label for="brand">Brand <span class="required">*</span></label>
+                    <input type="text" name="brand" id="brand" class="block" placeholder="Set the cell phone brand" required>
+                </div>
+
+                <div class="box-input">
+                    <label for="Model">Model <span class="required">*</span></label>
+                    <input type="text" name="Model" id="Model" class="block" placeholder="Set the cell phone Model" required>
+                </div>
+
+                <div class="box-input">
+                    <label for="purchase-date">Purchase date <span class="required">*</span></label>
+                    <input type="date" name="purchase-date" id="" class="block" placeholder="Set the cell phone purchase date" required>
+                </div>
+
+                <div class="box-input">
+                    <label for="ram">RAM <span class="required">*</span></label>
+                    <input type="number" name="ram" id="ram" class="block" placeholder="How many GB of RAM does your cell phone have?" minlength="1" maxlength="25" required>
+                </div>
+
+                <div class="box-input">
+                    <label for="rom">ROM <span class="required">*</span></label>
+                    <input type="number" name="rom" id="rom" class="block" placeholder="How many GB of storage does your cell phone have?" minlength="1" maxlength="25" required>
+                </div>
+
+                <div class="optional-box">
+                    <p>Optionals</p>
+                    <ul class="optional-list">
+                        <li>
+                            <input type="checkbox" name="optional[]" id="earphone" value="earphone">
+                            <label for="earphone">Earphone</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="optional[]" id="case" value="case">
+                            <label for="case">Case</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="optional[]" id="extra-charger" value="extra-charger">
+                            <label for="extra-charger">Extra charger</label>
+                        </li>
+                    </ul>
+                    <ul class="optional-list">
+                        <li>
+                            <input type="checkbox" name="optional[]" id="portable-charger" value="portable-charger">
+                            <label for="portable-charger">Portable Charger</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="optional[]" id="wireless-charger" value="wireless-charger">
+                            <label for="wireless-charger">Wireless Chargerr</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="optional[]" id="micro-sd" value="micro-sd">
+                            <label for="micro-sd">Micro SD Card</label>
+                        </li>
+                    </ul>
+
+                    <div class="box-input">
+                        <p>Cell phone photos: <span class="required"></span></p>
+                        <input type="file" name="cellphone-photos" id="cellphone-photos" multiple accept="image/png, image/jpg" required>
+                    </div>
+
+                <input type="submit" value="SEND" class="btn-submit">
+            </form>
+        </div>
+
+
+
+    </div>
 </body>
 </html>

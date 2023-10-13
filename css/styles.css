@@ -1,0 +1,144 @@
+/* reseting css */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #ffd3d3;
+}
+
+h1, h2, h3 {
+    color: #1d1d1d;
+}
+
+p, label {
+    color: #383838;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid #686868;
+    padding: 10px 0;
+}
+
+input[type="text"], 
+input[type="number"], 
+input[type="date"],
+input[type="file"],
+textarea {
+    width: 90%;
+    max-width: 800px;
+    margin: 30px 0 0 30px;
+}
+
+label {
+    margin: 30px 0 0 30px;
+}
+
+textarea {
+    padding: 10px 5px;
+
+}
+
+/* header */
+
+.header {
+    height: 180px;
+    padding: 20px;
+    background-color: #700000;
+}
+
+.header h2 {
+    color: #fff;
+    margin-top: 0;
+}
+
+/* form container */
+.form-container {
+    background-color: #fafafa;
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    top: -75px;
+}
+
+.form-header {
+    border-bottom: 1px solid #d2d2d2;
+    height: 40px;
+}
+
+.form-header p {
+    color: #700000;
+    border-bottom: 2px solid #700000;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 40px;
+    height: 40px;
+    font-size: 25px;
+}
+
+.form-body {
+    padding: 25px;
+    text-align: center;
+}
+
+.form-title {
+    margin-bottom: 18px;
+}
+
+.form-body p {
+    margin-bottom: 18px;
+}
+
+.required {
+    color: #ff0000;
+}
+
+.box-input {
+    margin-bottom: 35px;
+}
+
+.block {
+    display: block;
+}
+
+.optional-box p {
+    margin: 30px 0 0 30px;
+}
+
+.optional-list {
+    display: inline-block;
+}
+
+.optional-list li {
+    list-style: none;
+    margin-top: 10px;
+    margin: 30px 0 0 30px;
+}
+
+.box-input p {
+    margin-bottom: 20px;
+}
+
+#description {
+    width: 90%;
+}
+
+.btn-submit {
+    background-color: #700000;
+    color: #fff;
+    border: 2px solid transparent;
+    width: 130px;
+    height: 50px;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+.btn-submit:hover {
+    background-color: #ff0000;
+    border-color: #700000;
+    color: #000000;
+}
