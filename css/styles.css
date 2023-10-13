@@ -135,6 +135,7 @@ textarea {
     height: 50px;
     cursor: pointer;
     transition: 0.8s;
+    margin: 30px;
 }
 
 .btn-submit:hover {
